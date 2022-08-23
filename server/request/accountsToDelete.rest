@@ -1,0 +1,5 @@
+GET http://localhost:4000/api/accounts/to_delete
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZjcwYWViZjg0NWQyNzEzZTI0OTZmYSIsInVzZXJuYW1lIjoiTWFudWVsIiwiaWF0IjoxNjYwMzU4NDk2fQ.sduPzOyFs4kK6rV1sb2F4fS32U1dmdVjDEoJ0EuBmud
+
+

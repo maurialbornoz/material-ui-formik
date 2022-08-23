@@ -1,0 +1,28 @@
+{
+  "name": "homebanking",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines":{
+    "npm":"8.5.5"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --workspace=client",
+    "start" : "npm run start --workspace=server",
+    "dev:server":"npm rund build && npm run dev --workspace=client"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,10 @@
+POST http://localhost:4000/api/transactions/deposit
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYyZjcwYWViZjg0NWQyNzEzZTI0OTZmYSIsInVzZXJuYW1lIjoiTWFudWVsIiwiaWF0IjoxNjYwMzYwNzY1fQ.tVrCY6VbQKJplZQeWFqm7U1rVNGQg2fuyt_84UBAEUk
+
+
+
+ {
+    "alias": "cuentamanu",
+    "amount": "-1"
+  }
