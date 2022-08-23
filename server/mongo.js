@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
+require('dotenv').config()
 
-
-const connectionString = 'mongodb+srv://mauri300:pDXnXgQ7ujM9l7pT@cluster0.9m3p0.mongodb.net/app-homebanking?retryWrites=true&w=majority'
+const connectionString = process.env.MONGO_DB
 
 mongoose.connect(connectionString)
 .then(() => {
